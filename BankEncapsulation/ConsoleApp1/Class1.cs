@@ -33,5 +33,10 @@ namespace BankEncapsulation
         {
             return $"${balance}";
         }
+
+        public void Withdraw(double withdrawAmount)
+        {
+            balance -= withdrawAmount;
+        }
     }
 }
